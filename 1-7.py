@@ -67,7 +67,7 @@ for i in range(2):
 print(f"aluno mais alto",{mais},{cmais})
 print(f"aluno mais baixo",{menos},{cmenos})'''
 #7
-gabarito={"a","b","c","d","e","e","d","c","b","a"}
+'''gabarito={"a","b","c","d","e","e","d","c","b","a"}
 total_de_acertos=0
 total_de_erros=0
 total_de_alunos=0
@@ -139,7 +139,8 @@ while True:
     for cntina in range(1):
      cntina=input("quer continua: ")
     if cntina == "não":
-     break
+     break'''
+
 
     
 
