@@ -1,4 +1,22 @@
- import random
+#Atividade_1
+def soma_tres_numeros(a,b,c):
+    return a + b + c
+a=int(input("digite um numero:"))
+b=int(input("digite outro numero: "))
+c=int(input("digite outro numero: "))
+resultado=soma_tres_numeros(a,b,c)
+print(resultado)
+#Atividade_2
+horas=float(input("digite seu horario em brasilia: "))
+def horas_de_b(horas):
+    horas=horas%12
+if (horas>+12):
+    print("P.H" , horas,)
+if (horas<=12):
+    print("A.m" , horas,)
+
+#Atividade_3
+import random
 
 def jogar_craps():
     r = random.randint(2, 12)
